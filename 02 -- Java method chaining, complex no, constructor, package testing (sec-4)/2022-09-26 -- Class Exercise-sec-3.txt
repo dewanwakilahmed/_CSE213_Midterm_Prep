@@ -1,0 +1,49 @@
+2022-09-21 -- Class Exercise-sec-4:
+=====================================
+
+mainpkg.MainClass :
+-------------------
+public static void main(String[] args) {
+        int x; String str; float f;
+        Scanner s = new Scanner(System.in);
+        System.out.print("Enter x: ");x=s.nextInt();
+        s.nextLine();
+        System.out.print("Enter str: ");str=s.nextLine();
+        System.out.print("Enter f: ");f=s.nextFloat();
+        System.out.println("x="+x+", str="+str+", f="+f)     
+        
+        Student asif = new Student();
+        asif.setStudentInfo();
+        asif.showGradePoints();
+    }
+users.Student :
+---------------
+public class Student {
+//class Student {
+    private int id;    private String name;
+    String[] grades, courseIds;
+    int[] credits;
+    public void setStudentInfo(){    }
+    public void showGradePoints(){    }  
+}
+======
+run:
+Enter Id: 123
+Enter Name: Asif Ahmed
+How many courses completed? 3
+Enter couurse id of 0-th course: CSC101
+No of credits of 0-th course: 3
+Grade received in 0-th course: A
+Enter couurse id of 1-th course: CSC101L
+No of credits of 1-th course: 1
+Grade received in 1-th course: A
+Enter couurse id of 2-th course: NCH101
+No of credits of 2-th course: 3
+Grade received in 2-th course: A-
+
+Grade point details
+CSC101, 3 credit(s), grade point: 12
+CSC101L, 1 credit(s), grade point: 4
+NCH101, 3 credit(s), grade point: 11.1
+
+BUILD SUCCESSFUL (total time: 3 seconds)

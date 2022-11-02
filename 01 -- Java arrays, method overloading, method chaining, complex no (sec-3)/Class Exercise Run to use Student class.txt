@@ -1,0 +1,19 @@
+RUN of class exercise
+---------------------
+Enter ID: 123
+Enter Name: Asif Ahmed
+How many courses completed? 3
+Enter 0-th course ID: CSC101
+Enter 0-th grade: A
+Enter 0-th credit: 3
+Enter 1-th course ID: CSC101L
+Enter 1-th grade: A
+Enter 0-th credit: 1
+Enter 2-th course ID: NCH101
+Enter 2-th grade: A-
+Enter 3-th credit: 3
+
+Grade points:
+CSC101, 3 credits, grade point: 12.0
+CSC101L, 1 credit, grade point: 4.0
+NCH101, 3 credits, grade point: 11.1

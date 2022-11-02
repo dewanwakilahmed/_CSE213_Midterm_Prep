@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="318.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.FullNameDisplaySceneController">
+   <children>
+      <TextField fx:id="firstNameTextField" layoutX="269.0" layoutY="36.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Label layoutX="125.0" layoutY="45.0" prefHeight="20.0" prefWidth="128.0" text="Enter First Name">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="lastNameTextField" layoutX="269.0" layoutY="88.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Label layoutX="125.0" layoutY="97.0" prefHeight="20.0" prefWidth="136.0" text="Enter Last Name">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="125.0" layoutY="164.0" mnemonicParsing="false" onMouseClicked="#showFullNameButtonOnClick" onMouseEntered="#mouseEnteredOnShowFullNameButton" prefHeight="25.0" prefWidth="369.0" text="Show Full Name">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="fullNameLabel" layoutX="125.0" layoutY="237.0" prefHeight="20.0" prefWidth="369.0" text="Full Name:" textFill="#551ed7">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

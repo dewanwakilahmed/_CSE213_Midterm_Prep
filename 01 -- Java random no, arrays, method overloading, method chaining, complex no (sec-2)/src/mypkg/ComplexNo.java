@@ -1,0 +1,6 @@
+
+package mypkg;
+
+class ComplexNo {
+    
+}
